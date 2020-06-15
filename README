@@ -1,0 +1,7 @@
+1. build the binary using 
+   ./build.sh
+2. build docker image using 
+	docker build .
+3. Execute the binaru image using: 
+	docker run -it --rm $IMAGE_ID /custom/binary/location/javaparser-maven-sample-1.0-SNAPSHOT-shaded.jar
+	
